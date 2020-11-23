@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import React, { Component } from "react";
-import { HashRouter, Route } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import './styles/main.css';
@@ -16,12 +16,14 @@ class App extends Component {
           <HashRouter basename="/">
             <div>
               <Navbar />
-              <Route exact path="/" component={ Main } />
-              <Route path="/skills" component={ Skills } />
-              <Route path="/education" component={ Education } />
-              <Route path="/professional-experience" component={ ProfessionalExperience } />
-              <Route path="/volunteer-experience" component={ VolunteerExperience } />
-              <Route path="/portfolio" component={ Portfolio } />
+              <Switch>
+                <Route exact path="/" component={ Main } />
+                <Route exact path="/skills" component={ Skills } />
+                <Route exact path="/education" component={ Education } />
+                <Route exact path="/professional-experience" component={ ProfessionalExperience } />
+                <Route exact path="/volunteer-experience" component={ VolunteerExperience } />
+                <Route exact path="/portfolio" component={ Portfolio } />
+              </Switch>
             </div>
           </HashRouter>
     );
