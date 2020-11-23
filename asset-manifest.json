@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ResumeVersion2/static/css/main.b3bf17a0.chunk.css",
-    "main.js": "/ResumeVersion2/static/js/main.883da730.chunk.js",
-    "main.js.map": "/ResumeVersion2/static/js/main.883da730.chunk.js.map",
+    "main.css": "/ResumeVersion2/static/css/main.923b96df.chunk.css",
+    "main.js": "/ResumeVersion2/static/js/main.de843c71.chunk.js",
+    "main.js.map": "/ResumeVersion2/static/js/main.de843c71.chunk.js.map",
     "runtime-main.js": "/ResumeVersion2/static/js/runtime-main.678a9e33.js",
     "runtime-main.js.map": "/ResumeVersion2/static/js/runtime-main.678a9e33.js.map",
     "static/js/2.c7235cac.chunk.js": "/ResumeVersion2/static/js/2.c7235cac.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.44ed9b69.chunk.js": "/ResumeVersion2/static/js/3.44ed9b69.chunk.js",
     "static/js/3.44ed9b69.chunk.js.map": "/ResumeVersion2/static/js/3.44ed9b69.chunk.js.map",
     "index.html": "/ResumeVersion2/index.html",
-    "static/css/main.b3bf17a0.chunk.css.map": "/ResumeVersion2/static/css/main.b3bf17a0.chunk.css.map",
+    "static/css/main.923b96df.chunk.css.map": "/ResumeVersion2/static/css/main.923b96df.chunk.css.map",
     "static/js/2.c7235cac.chunk.js.LICENSE.txt": "/ResumeVersion2/static/js/2.c7235cac.chunk.js.LICENSE.txt",
     "static/media/ACenturyofTypeDesignposter.a9f62dc7.jpg": "/ResumeVersion2/static/media/ACenturyofTypeDesignposter.a9f62dc7.jpg",
     "static/media/Arizonastamp.286f355d.png": "/ResumeVersion2/static/media/Arizonastamp.286f355d.png",
@@ -23,7 +23,7 @@
     "static/media/graduation-cap.4c4de1cf.png": "/ResumeVersion2/static/media/graduation-cap.4c4de1cf.png",
     "static/media/hand-grip_altered.ece6a966.png": "/ResumeVersion2/static/media/hand-grip_altered.ece6a966.png",
     "static/media/hand-raised.c1358419.png": "/ResumeVersion2/static/media/hand-raised.c1358419.png",
-    "static/media/logo.103b5fa1.svg": "/ResumeVersion2/static/media/logo.103b5fa1.svg",
+    "static/media/logo.2d27ead7.svg": "/ResumeVersion2/static/media/logo.2d27ead7.svg",
     "static/media/martialArtsSmol.178466ba.jpg": "/ResumeVersion2/static/media/martialArtsSmol.178466ba.jpg",
     "static/media/picturehead_smaller_square.97f9dd28.png": "/ResumeVersion2/static/media/picturehead_smaller_square.97f9dd28.png",
     "static/media/tie.e1f81205.png": "/ResumeVersion2/static/media/tie.e1f81205.png"
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.678a9e33.js",
     "static/js/2.c7235cac.chunk.js",
-    "static/css/main.b3bf17a0.chunk.css",
-    "static/js/main.883da730.chunk.js"
+    "static/css/main.923b96df.chunk.css",
+    "static/js/main.de843c71.chunk.js"
   ]
 }
