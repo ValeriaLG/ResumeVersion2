@@ -1,0 +1,43 @@
+ 
+  .professionalExpInfo {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #677e7e;
+    align-items: center;
+    line-height: 1.4em;
+  }
+  
+  .professionalExpInfo .listing {
+      background-image: radial-gradient(white, #e3e8e8);
+      border: 1px solid #EBEBEB;
+      box-shadow: 4px 6px 2px #cecaca;
+      width: 400px;
+      height: 400px;
+      margin: 15px;
+      padding: 10px;
+  }
+  
+  .professionalExpInfo .listing h2, .professionalExpInfo .listing h4 {
+      text-align: center;
+  }
+  
+  
+  .bowTieBlock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  
+  .bowTie {
+    margin: 50px auto 20px auto;
+    width: 5%;
+    opacity: 0.5;
+    vertical-align: center;
+  
+  }

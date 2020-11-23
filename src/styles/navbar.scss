@@ -1,0 +1,80 @@
+.navigation {
+    max-width: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 90%;
+    background-color: #394646;
+    box-shadow: 5px 8px 3px #DAD9D9;
+  
+  }
+
+  .logo {
+    display: inline;
+  }
+  
+  .logoImage {
+    width: 25px;
+    float: left;
+    margin-right: 10px;
+    padding: 7px 0px 7px 20px;
+    display: inline;
+  }
+  
+
+  .navigation .hoverDrop .drop{
+    display: none;
+    z-index: 4;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .hoverDrop:hover .drop{
+    display: block;
+    width: 140px;
+    margin-top: 38px;
+    margin-left: 195px;
+    background-color: DimGrey;
+  
+  }
+
+
+
+  .navigation .drop a {
+    float: none;
+    clear: both;
+    text-decoration: none;
+    font-size: 0.9em;
+    width: 140px;
+    display: block;
+  }
+  
+  
+  /* style for the links that are outside */
+  .navigation .hoverDrop a, .navigation #homepage {
+    text-align: center;
+    float: left;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: white;
+    width: 140px;
+  }
+  
+  .navigation #homepage {
+    width: 140px;
+  }
+  
+  .navigation a.downloadLink {
+    color: white;
+    float: left;
+    padding: 10px 0px;
+    width: 140px;
+    text-align: center;
+    vertical-align: center;
+  }
+  
+  
+  /* hover effects for the outer links and the second sublists */
+  .navigation a:hover {
+    background-color: Grey;
+  }

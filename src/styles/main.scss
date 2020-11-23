@@ -1,0 +1,346 @@
+
+  body {
+    font-family: Verdana, sans-serif;
+  }
+  
+  
+  .squareInfo {
+    box-sizing: border-box;
+    margin: 50px auto;
+    height: 400px;
+    width: 60%;
+    background-image: radial-gradient(white, #F4F6F6);
+    border: 1px solid #EBEBEB;
+    box-shadow: 3px 5px 2px #cecaca;
+    z-index: 3;
+  }
+  
+  
+  .squareInfo2 {
+    box-sizing: border-box;
+    height: 400px;
+    width: 60%;
+    background-image: radial-gradient(white, #f3f2f2);
+    border: 1px solid #EBEBEB;
+    box-shadow: 5px 7px 3px #cecaca;
+    z-index: -2;
+    top: -425px;
+    left: 310px;
+    position: relative;
+  }
+  
+  .squareInfo {
+
+    .mainGrid {
+      display: grid;
+      grid-template-columns: auto auto;
+      color: #626567;
+    }
+    
+    .grid1 {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 1;
+    }
+    
+    .grid2 {
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 2;
+      grid-column-end: 2;
+    }
+    
+    .grid3 {
+      grid-row-start: 2;
+      grid-row-end: 2;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      font-size: 0.8em;
+    }
+    
+    .grid4 {
+      grid-row-start: 3;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      height: 100px;
+      background-color: #e3e6e8;
+    }
+    
+    .darkerHalf {
+      background-color: #e3e6e8;
+      height: 100px;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+    }
+    
+    .grid2 h2 {
+      margin-top: 50px;
+      vertical-align: center;
+      justify-content: center;
+    }
+    
+    .contactInformation {
+      padding: 10px;
+      vertical-align: middle;
+      justify-content: center;
+      text-align: center;
+      margin: 3% 10%;
+      font-size: 0.8em;
+      color: #97999b;
+    }
+
+    .personalPic {
+      margin-left: 50%;
+      height: 250px;
+      margin-right: 50%;
+      display: block;
+    
+      border-radius: 50px;
+    }
+
+  }
+  
+  .contactInformation h4 {
+    margin-top: -20px;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .email p, .LinkedIn p {
+    display: inline;
+  }
+  
+  .email {
+    display: inline;
+  }
+  
+  
+  
+  .mailIcon, .LinkedInIcon {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+  }
+  
+  .LinkedIn {
+    float: right;
+    display: inline;
+    text-align: middle;
+  }
+  
+  .LinkedIn:hover a, .email:hover a {
+    color: #717374;
+  }
+  
+  
+  .objective {
+    max-width: 400px;
+  }
+  
+  .imageContainer {
+    display: table-cell;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    height: 300px;
+  }
+  
+  .grid1 p {
+    text-align: center;
+  }
+  
+  .canvas {
+    margin-top: 100px;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .handing {
+    max-width: 300px;
+    overflow-x: hidden;
+  }
+  
+  .handPic {
+    overflow-x: hidden;
+    width: 30%;
+    opacity: 1;
+    z-index: 10;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 70.1%;
+    overflow-x: hidden;
+  }
+
+  
+  /*Media queries*/
+  
+  @media only screen and (max-width: 600px) {
+    .mechanics, .blackboard, .gradCap, .handRaised, .bowTie {
+      width: 25%;
+    }
+  
+  
+    .logo, .logoImage {
+      vertical-align: center;
+      float: none;
+      clear: both;
+      display: block;
+      text-align: center;
+    }
+  
+    .logoImage {
+      margin: auto 41%;
+    }
+  
+    .objective {
+      max-width: 160px;
+      font-size: 0.9em;
+    }
+  
+    .contactInformation, .email, .LinkedIn {
+      font-size: 0.8em;
+    }
+  
+  
+    .navigation .hoverDrop .drop, .navigation{
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+  
+    .moreAbout {
+      display: none;
+    }
+  
+    .navigation .hoverDrop .drop a, .navigation a, #homepage {
+      clear: both;
+      width: 100% !important;
+      float: none;
+      text-align: center;
+      vertical-align: center;
+    }
+  
+    .hoverDrop:hover .drop{
+      display: block;
+      width: 100%;
+      margin-top: 0px;
+      margin-left: 0px;
+      background-color: transparent;
+  
+    }
+  
+    .navigation a, .navigation .drop a {
+      font-size: 1em;
+    }
+  }
+  
+  @media only screen and (max-width: 762px) {
+  
+    .handPic {
+      display: none;
+    }
+  
+    .squareInfo {
+      width: 95%;
+      height: auto;
+    }
+  
+    .grid4 {
+      background-color: none;
+      padding-bottom: 10px;
+    }
+  
+    .squareInfo .personalPic {
+      height: 40%;
+    }
+  
+  
+  }
+  
+  
+  @media only screen and (max-width: 1244px) {
+  
+  
+  
+    .squareInfo .personalPic {
+      height: 40%;
+    }
+  
+    .squareInfo {
+      height: auto;
+  
+    }
+  
+    .squareInfo .mainGrid {
+      display: grid;
+      grid-template-columns: auto;
+      align-content: center;
+      grid-gap: 0px;
+    }
+  
+    .squareInfo .grid1 {
+      grid-row-start: 1/1;
+    }
+  
+    .squareInfo .grid2 {
+      grid-row-start: 2/2;
+    }
+  
+    .squareInfo .grid3 {
+      grid-row-start: 3/3;
+      font-size: 0.8em;
+    }
+  
+    .squareInfo .grid4 {
+      grid-row-start: 4/4;
+    }
+  
+  
+  }
+  
+  @media only screen and (max-width: 1529px) {
+  
+    .handPic {
+      overflow-x: hidden;
+      width: 25%;
+      opacity: 1;
+      z-index: 10;
+      position: absolute;
+      margin-top: 40px;
+      margin-left: 71.1%;
+      overflow-x: hidden;
+    }
+  
+    .squareInfo2 {
+      display: none;
+    }
+  
+    .squareInfo {
+      box-shadow: 6px 9px 3px #cecaca;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 1530px) {
+  
+    .handPic {
+      overflow-x: hidden;
+      width: 30%;
+      opacity: 1;
+      z-index: 10;
+      position: absolute;
+      margin-top: 20px;
+      margin-left: 70.08%;
+      overflow-x: hidden;
+    }
+  
+  }
+  

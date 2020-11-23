@@ -1,0 +1,69 @@
+.educationInfo {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #677e7e;
+    align-items: center;
+  }
+  
+  .educationInfo .listing {
+      background-image: radial-gradient(white, #e3e8e8);
+      border: 1px solid #EBEBEB;
+      box-shadow: 4px 6px 2px #cecaca;
+      width: 350px;
+      height: 350px;
+      margin: 15px;
+      padding: 10px;
+  }
+  
+  .educationInfo h2 {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  hr.titleLine {
+    border: 1.5px solid #d5dddd;
+    width: 300px;
+  }
+  
+  .educationInfo .listing ul li{
+    line-height: 2em;
+  }
+  
+  .educationInfo .listing ul.sublist li{
+    line-height: 1.3em;
+  }
+  
+  .educationInfo .sublist {
+    font-size: 0.8em;
+  }
+  
+  
+  .gradCapBlock {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  
+  .gradCap {
+    margin: 60px auto 20px auto;
+    width: 5%;
+    opacity: 0.5;
+    vertical-align: center;
+  
+  }
+  
+  .mainName {
+    margin: 80px auto -30px auto;
+    color: #39A4B6;
+    text-align: center;
+  }
+  
+  hr.mainTitle {
+    border: 1.5px solid #d5dddd;
+    width: 200px;
+  }
