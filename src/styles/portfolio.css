@@ -10,8 +10,7 @@
     line-height: 1.4em;
   }
 
-  .portfolio {
-    .listing {
+  .portfolio .listing {
         border: 1px solid grey;
         box-shadow: 4px 6px 2px #cecaca;
         width: 200px;
@@ -22,30 +21,26 @@
         margin: 15px;
     }
 
-    .listing {
+    .portfolio .listing .modalPics {
+          height: 100%;
+          width: auto;
+          opacity: 0.5;
+      }
 
-        .modalPics {
-            height: 100%;
-            width: auto;
-            opacity: 0.5;
-        }
+      .portfolio .listing .modalPics.widthMore {
+          width: 100%;
+          height: auto;
+      }
+      .portfolio .listing .doubleStacked {
+          height: 100px;
+          width: auto;
+          margin: 0px auto;
+          display: block;
+      }
 
-        .modalPics.widthMore {
-            width: 100%;
-            height: auto;
-        }
-        .doubleStacked {
-            height: 100px;
-            width: auto;
-            margin: 0px auto;
-            display: block;
-        }
-    }
-
-    .listing:hover .modalPics {
+    .portfolio .listing:hover .modalPics {
         opacity: 1;
     }
-  }
   
 
   

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Graphs from "./Graphs";
 import graduationCap from "../images/graduation-cap.png";
-import "../styles/education.scss";
+import "../styles/education.css";
 
 
 const Education = () => {

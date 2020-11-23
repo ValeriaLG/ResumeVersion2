@@ -3,7 +3,7 @@ import { Line, HorizontalBar, Pie } from 'react-chartjs-2';
 import { gpaData, classTypeData, gradeData } from '../utils/data';
 import { classTypeOptions, gpaOptions, gradeOptions } from '../utils/options';
 import { sorter } from '../utils/functions';
-import "../styles/graphs.scss";
+import "../styles/graphs.css";
 
 
 class Graphs extends Component {

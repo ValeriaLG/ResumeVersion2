@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { HashRouter, Route } from "react-router-dom";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
-import './styles/main.scss';
+import './styles/main.css';
 import Education from './components/Education';
 import ProfessionalExperience from './components/ProfessionalExperience';
 import VolunteerExperience from './components/VolunteerExperience';

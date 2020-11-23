@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import tie from "../images/tie.png";
-import "../styles/professional-experience.scss";
+import "../styles/professional-experience.css";
 
 const ProfessionalExperience = () => {
     return (

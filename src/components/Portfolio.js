@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/portfolio.scss";
+import "../styles/portfolio.css";
 import blackboard from "../images/blackboard.jpg";
 import arizonastamp from "../images/Arizonastamp.png";
 import animalLogos from "../images/animallogos.png";

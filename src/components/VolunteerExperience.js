@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import handRaised from "../images/hand-raised.png";
-import "../styles/volunteer.scss";
+import "../styles/volunteer.css";
 
 
 const VolunteerExperience = () => {

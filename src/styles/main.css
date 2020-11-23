@@ -29,29 +29,27 @@
     position: relative;
   }
   
-  .squareInfo {
-
-    .mainGrid {
+  .squareInfo  .mainGrid {
       display: grid;
       grid-template-columns: auto auto;
       color: #626567;
     }
     
-    .grid1 {
+    .squareInfo .grid1 {
       grid-row-start: 1;
       grid-row-end: 3;
       grid-column-start: 1;
       grid-column-end: 1;
     }
     
-    .grid2 {
+    .squareInfo .grid2 {
       grid-row-start: 1;
       grid-row-end: 1;
       grid-column-start: 2;
       grid-column-end: 2;
     }
     
-    .grid3 {
+    .squareInfo .grid3 {
       grid-row-start: 2;
       grid-row-end: 2;
       grid-column-start: 2;
@@ -59,7 +57,7 @@
       font-size: 0.8em;
     }
     
-    .grid4 {
+    .squareInfo .grid4 {
       grid-row-start: 3;
       grid-row-end: 3;
       grid-column-start: 1;
@@ -68,7 +66,7 @@
       background-color: #e3e6e8;
     }
     
-    .darkerHalf {
+    .squareInfo .darkerHalf {
       background-color: #e3e6e8;
       height: 100px;
       position: absolute;
@@ -77,13 +75,13 @@
       right: 0px;
     }
     
-    .grid2 h2 {
+    .squareInfo .grid2 h2 {
       margin-top: 50px;
       vertical-align: center;
       justify-content: center;
     }
     
-    .contactInformation {
+    .squareInfo .contactInformation {
       padding: 10px;
       vertical-align: middle;
       justify-content: center;
@@ -93,7 +91,7 @@
       color: #97999b;
     }
 
-    .personalPic {
+    .squareInfo .personalPic {
       margin-left: 50%;
       height: 250px;
       margin-right: 50%;
@@ -101,8 +99,6 @@
     
       border-radius: 50px;
     }
-
-  }
   
   .contactInformation h4 {
     margin-top: -20px;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import gearsCouple from "../images/Interface_gears-couple.png";
-import "../styles/skills.scss";
+import "../styles/skills.css";
 
 
 const Skills = () => {

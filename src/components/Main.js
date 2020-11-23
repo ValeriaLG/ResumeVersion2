@@ -1,7 +1,7 @@
 import React, { Component }  from "react";
 import personalPic from "../images/Me.png";
 import handPic from "../images/hand-grip_altered.png";
-import "../styles/main.scss";
+import "../styles/main.css";
 import mailIcon from "../images/mailIcon.png";
 import LinkedInIcon from "../images/LinkedInIcon.png";
 
