@@ -10,21 +10,22 @@ import VolunteerExperience from './components/VolunteerExperience';
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 
-const App = () => {
-  return (
-      <div>
-
-        <HashRouter basename="/">
-          <Navbar />
-          <Route exact path="/" component={ Main } />
-          <Route path="/skills" component={ Skills } />
-          <Route path="/education" component={ Education } />
-          <Route path="/professional-experience" component={ ProfessionalExperience } />
-          <Route path="/volunteer-experience" component={ VolunteerExperience } />
-          <Route path="/portfolio" component={ Portfolio } />
-        </HashRouter>
-      </div>
-  );
+class App extends Component {
+  render() {
+    return (
+          <HashRouter basename="/">
+            <div>
+              <Navbar />
+              <Route exact path="/" component={ Main } />
+              <Route path="/skills" component={ Skills } />
+              <Route path="/education" component={ Education } />
+              <Route path="/professional-experience" component={ ProfessionalExperience } />
+              <Route path="/volunteer-experience" component={ VolunteerExperience } />
+              <Route path="/portfolio" component={ Portfolio } />
+            </div>
+          </HashRouter>
+    );
+  }
 }
 
 export default App;
