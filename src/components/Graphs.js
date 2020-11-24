@@ -30,7 +30,7 @@ class Graphs extends Component {
       <div className="homepage-container">
         <div className="graph-distribution">
           <div className="banner">
-            <h1 class="mainName">Grade Distributions</h1>
+            <h2 class="mainName">Grade Distributions</h2>
           </div>
           <div className="listing graphs" >
             <h3>Course Distribution Among Majors</h3>

@@ -43,7 +43,7 @@
   
   
   .sort-button {
-    background-color: #394646;
+    background-color: #677e7e;
     box-sizing: border-box;
     height: 20px;
     width: 42px;
@@ -54,6 +54,8 @@
     font-size: 0.9em;
     text-align: center;
     padding: 1px 5px 5px 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
   }
   
   .grade-dist-time {
@@ -67,3 +69,8 @@
     color: #DDDCDC;
   }
   
+
+  h2.mainName {
+    margin: 10px 0;
+    color: #6ea8a8;
+  }
